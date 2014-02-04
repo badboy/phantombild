@@ -121,7 +121,7 @@
             hasMotiveUrl = motiveUrl !== undefined;
 
             if(!hasMotiveUrl) {
-                respondeWithError(500);
+                respondWithError(500);
             } else {
                 screenCapture(motiveUrl, onCaptureSuccess);
             }
