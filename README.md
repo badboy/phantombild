@@ -17,7 +17,7 @@ A phantomjs module to remotely create viewport constrained screenshots of a webs
 
 Get screenhot of http://www.github.com/snnd/phantombild?ignore=this
 
-    wget http://localhost:8081/capture/?capurl=http%3a%2f%2fwww.github.com%2fsnnd%2fphantombild%3fignore%3dthis
+    wget http://localhost:8081/capture/?targetUrl=http%3a%2f%2fwww.github.com%2fsnnd%2fphantombild%3fignore%3dthis -O screenshot.png
 
 ## Author
 
